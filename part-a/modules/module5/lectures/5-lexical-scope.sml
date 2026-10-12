@@ -1,0 +1,7 @@
+
+
+(* 1 *) val x = 1
+(* 2 *) fun f y = x + y
+(* 3 *) val x = 2
+(* 4 *) val y = 3
+(* 5 *) val z = f (x + y) (* x + y = 5 and z = 6*)
